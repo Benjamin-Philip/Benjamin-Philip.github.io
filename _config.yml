@@ -11,8 +11,9 @@ author: Benjamin Philip
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn Vim & Help Uganda!: "https://www.vim.org/" 
     - Learn markdown: "https://www.markdowntutorial.com/"
+  Blog: "/_posts"
   Author's home: "https://benjamin-philip.github.io"
 
 # --- Logo --- #
@@ -37,11 +38,11 @@ social-network-links:
   email: "benjamin.philip495@gmail.com"
   #facebook: 
   github: Benjamin-Philip
-  twitter: daattali
+# twitter: username
 #  reddit: yourname
 #  linkedin: 
 #  xing: yourname
-#  stackoverflow: "<userno.>/<username>"
+#  stackoverflow: "<usernumber>/<username>"
 #  snapchat: 
 #  instagram: 
 #  youtube: user/<username>
