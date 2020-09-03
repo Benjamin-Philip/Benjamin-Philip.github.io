@@ -39,21 +39,21 @@ the User should be aware of)
 Installing vim-plug just requires cloning the directory from Github. I will be using `curl`.
 You can install it by inserting the following:
 
-```
+~~~
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
+~~~
 That's it!
 
 # Enabling plugins
 
 Open your ~/.vimrc file and insert the following:
 
-```
+~~~
 call plug#begin()
 Plug 'preservim/NERDTree'
 call plug#end()
-```
+~~~
 
 We are installing NERDTree as an example. NERDTree is a beautiful plugin
 to that allows you to open and access other files in your Computer from
@@ -76,9 +76,9 @@ This will open a Window and install NERDTree like this:
 # Using vim-plug
 
 To view the Documentation for vim-plug, use:
-```
+~~~
 :help vim-plug
-```
+~~~
 
 You can use `:PlugUpdate` to update all your plugins.
 
