@@ -10,11 +10,11 @@ author: Benjamin Philip
 
 navbar-links:
   About Me: "aboutme"
+  Tags: "https://benjamin-philip.github.io/tags"
   Resources:
     - Learn Vim & Help Uganda!: "https://www.vim.org/" 
     - Learn markdown: "https://www.markdowntutorial.com/"
   Projects: "https://github.com/Benjamin-Philip?tab=projects"
-  Author's home: "https://benjamin-philip.github.io"
 
 # --- Logo --- #
 
@@ -106,7 +106,7 @@ footer-link-col: "#404040"
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
-page-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
