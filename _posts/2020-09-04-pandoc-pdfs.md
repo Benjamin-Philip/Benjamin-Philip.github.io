@@ -219,6 +219,7 @@ Fe~2~O~4 + H~2~ -> Fe + H~2~O
 By using "^" for superscript and "~" for subscript.
 
 However knowing how to directly use LaTeX is handy as you can't write things like this in Markdown!
+
 $$\lim_{h \rightarrow 0 } \frac{f(x+h)-f(x)}{h}$$
 
-What do use to convert doc types? Tell us in the comments bellow 
+What do you use to convert doc types? Tell us in the comments below !
