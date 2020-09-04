@@ -1,6 +1,7 @@
 ---
 title: Pdfs with pandoc
 subtitle: An efficient replacement to Word
+tags: [Pandoc, LaTeX]
 comments: True
 ---
 
