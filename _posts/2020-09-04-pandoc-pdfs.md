@@ -140,7 +140,7 @@ Now what we are essentially passing to markdown is:
 
 This is how my test.md looks:
 
-![First Test.pdf](/assets/post-imgs/pandoc-pdfs/test.pdf)
+[First Test.pdf](/assets/post-imgs/pandoc-pdfs/test.pdf)
 
 As you can see, markdown automatically numbers our numbered list and
 rectifies our mistakes.
@@ -166,7 +166,7 @@ Add this to the top of your document.
 
 This is how our new pdf looks:
 
-![New test.pdf](/assets/post-imgs/pandoc-pdfs/)
+[New test.pdf](/assets/post-imgs/pandoc-pdfs/)
 
 # Specifying a different markdown variant
 
