@@ -12,11 +12,11 @@ Here is a tutorial to write pdfs and docx documents using markdown!
 
 # What is pandoc?
 
-When we write, a document say, a .txt file and want to convert it into html,
+When we write document say, a .txt file and want to convert it into html,
 We would need a script that could convert a .txt file into html. And that's what
 [pandoc is about.](https://pandoc.org/index.html) It is a haskell script
 that can convert almost markup format into another one. In my opinion,
-It is the "Swiss army knife" of document converters. It is even a haskell library.
+It is the "Swiss army knife" of document converters. It even has a haskell API.
 
 # Installing pandoc
 
