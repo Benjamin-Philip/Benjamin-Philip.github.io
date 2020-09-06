@@ -73,6 +73,9 @@ and giving you some additional information.
 # Installing $ L^{A}T_{E}X $
 
 We need LaTeX to convert our markdown documents to pdf.
+Pandoc actually converts the markdown to LaTeX and then 
+using pdflatex, compiles it into pdf.
+
 You can install it on Debian based systems as follows:
 
 ```
