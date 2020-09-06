@@ -88,7 +88,7 @@ On Fedora it should be:
 sudo dnf install texlive-scheme-full
 ```
 
-# Writing a documents with pandoc and markdown
+# Writing a document with pandoc and markdown
 
 {: .box-warning}
 **Warning:** Markdown is not standardised. Pandoc follows its own markdown 
