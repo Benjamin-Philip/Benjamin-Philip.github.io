@@ -155,12 +155,12 @@ As you can see, markdown automatically numbers our numbered list and
 rectifies our mistakes.
 
 
-# Passing LaTeX Parameters
+# Passing $ L^{A}T_{E}X $ Parameters
 
 Now our pdf looks like a very plain document without a title, 
 date or even a specified margin.
 
-Pandoc supports using YAML in the beginning for passing parameters
+Pandoc supports using YAML metadata in the beginning for passing parameters
 
 Let's beautify this a bit more:
 
