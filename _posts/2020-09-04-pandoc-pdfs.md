@@ -175,7 +175,7 @@ Add this to the top of your document.
 
 This is how our new pdf looks:
 
-[New test.pdf](/assets/post-imgs/pandoc-pdfs/)
+[New test.pdf](/assets/post-imgs/pandoc-pdfs/new-test.pdf)
 
 # Specifying a different markdown variant
 
