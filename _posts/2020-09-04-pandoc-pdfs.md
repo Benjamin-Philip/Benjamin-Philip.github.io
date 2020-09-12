@@ -146,11 +146,11 @@ Now Let's convert this to pdf:
 pandoc -f markdown -o test.pdf test.md
 ```
 
-Now what we are essentially passing to markdown is:
+Now what we are essentially passing to pandoc is:
 
 > Using markdown format, make test.pdf out of test.md
 
-This is how my test.md looks:
+This is how my test.pdf looks:
 
 [First Test.pdf](/assets/post-imgs/pandoc-pdfs/test.pdf)
 
