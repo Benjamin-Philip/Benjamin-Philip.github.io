@@ -152,7 +152,7 @@ Now what we are essentially passing to pandoc is:
 
 This is how my test.pdf looks:
 
-[First Test.pdf](/assets/post-imgs/pandoc-pdfs/test.pdf)
+[First Test.pdf](/assets/post-assets/pandoc-pdfs/test.pdf)
 
 As you can see, markdown automatically numbers our numbered list and
 rectifies our mistakes.
@@ -178,7 +178,7 @@ Add this to the top of your document.
 
 This is how our new pdf looks:
 
-[New test.pdf](/assets/post-imgs/pandoc-pdfs/new-test.pdf)
+[New test.pdf](/assets/post-assets/pandoc-pdfs/new-test.pdf)
 
 # Specifying a different markdown variant
 
