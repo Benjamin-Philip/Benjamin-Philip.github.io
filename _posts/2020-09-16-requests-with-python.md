@@ -76,6 +76,8 @@ element` feature of your browser. This usually can be accessed with a
 right click. If you can't find it, you can always search how to inspect
 element on your browser.
 
+![Inspecting on Brave](assets/post-assets/2020-09-16/2020-09-15.png)
+
 # Writing the script
 
 For purpose of this article, we shall be using the [Quotes to
@@ -234,6 +236,8 @@ with Session() as s:
     home_page = BeautifulSoup(site.content, "html.parser")
     print(home_page)
 ```
+
+[Here](assets/post-assets/2020-09-16/script.py) is my script in case you have some use for it.
 
 # Going through each line
 
