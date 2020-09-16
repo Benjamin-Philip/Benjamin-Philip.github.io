@@ -70,7 +70,7 @@ pandoc --version
 You should see a message telling you which version of pandoc is installed 
 and giving you some additional information.
 
-# Installing $ L^{A}T_{E}X $
+# Installing $ \LaTeX $
 
 We need LaTeX to convert our markdown documents to pdf.
 Pandoc actually converts the markdown to LaTeX and then 
@@ -158,7 +158,7 @@ As you can see, markdown automatically numbers our numbered list and
 rectifies our mistakes.
 
 
-# Passing $ L^{A}T_{E}X $ Parameters
+# Passing $ \LaTeX $ Parameters
 
 Now our pdf looks like a very plain document without a title, 
 date or even a specified margin.
@@ -199,7 +199,7 @@ pandoc -f markdown_mmd -o test.pdf test.md
 You can check all the input and output formats available 
 with the [pandoc User manual](https://pandoc.org/MANUAL.html)
 
-# Inserting $L^{A}T_{E}X$ snippets
+# Inserting $\LaTeX$ snippets
 
 You can insert LaTeX snippets by using the "$" sign.
 
