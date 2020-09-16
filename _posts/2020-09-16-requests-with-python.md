@@ -76,7 +76,7 @@ element` feature of your browser. This usually can be accessed with a
 right click. If you can't find it, you can always search how to inspect
 element on your browser.
 
-![Inspecting on Brave](assets/post-assets/2020-09-16/2020-09-15.png)
+![Inspecting on Brave](https://benjamin-philip.github.io/assets/post-assets/2020-09-16-requests-with-python/2020-09-15.png)
 
 # Writing the script
 
@@ -237,7 +237,7 @@ with Session() as s:
     print(home_page)
 ```
 
-[Here](assets/post-assets/2020-09-16/script.py) is my script in case you have some use for it.
+[Here](assets/post-assets/2020-09-16-requests-with-python/script.py) is my script in case you have some use for it.
 
 # Going through each line
 
