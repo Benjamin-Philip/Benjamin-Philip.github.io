@@ -180,7 +180,7 @@ On my Linux machine the following were the commands:
 python3 scrape.py | grep  "input"
 ```
 
-{. :box-note}
+{: .box-note}
 **Note:** You will have to change `python3` to `python` if you use an
 older interpreter. You will also have to replace `scrape.py` with the
 filename of your script
