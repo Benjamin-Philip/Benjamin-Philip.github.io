@@ -15,7 +15,7 @@ navbar-links:
     - Learn Vim & Help Uganda!: "https://www.vim.org/"
     - Vim wiki: "https://vim.fandom.com/wiki"  
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Projects: "https://github.com/Benjamin-Philip?tab=projects"
+  Repositories: "https://github.com/Benjamin-Philip?tab=repositories"
 
 # --- Logo --- #
 
