@@ -27,10 +27,11 @@ is generally used for websites with HTML content (It is a HTML parser).
 
 {: .box-warning}
 **Warning:** This tutorial is meant for BeautifulSoup. If your website
-uses a lot of Javascript to substitute for HTML, You need to use Selenium.
-BeautifulSoup can't parse Javascript, and hence you will need to use
-Selenium.  The process for Authenticating with Selenium is completely
-different.
+login page uses a lot of Javascript to substitute for HTML, You will need
+to use Selenium as BeautifulSoup can't parse Javascript, and hence you
+will need to use Selenium. The process for Authenticating with Selenium
+may be completely different.(This is because Selenium may already have
+functions for authentication.)
 
 We will also be using the requests library to handle cookies, basic Authentication,
 HTTP(S) Proxy support etc.
@@ -237,7 +238,7 @@ with Session() as s:
     print(home_page)
 ```
 
-[Here](\assets\post-assets\2020-09-16-requests-with-python\script.py) is my script in case you have some use for it.
+[Here](https://raw.githubusercontent.com/Benjamin-Philip/benjamin-philip.github.io/master/assets/post-assets/2020-09-16-requests-with-python/scrape.py) is my script in case you have some use for it.
 
 # Going through each line
 
@@ -298,5 +299,5 @@ and some will prove to be much more difficult to
 login on to than others. 
 
 The key is to have a good knowledge of HTML, Beautiful Soup requests and
-the ability to understand what you got from grep/ information gotten
+the ability to understand what you got from grep/ information received 
 from the Network tab of your web browser’s Developer tools.
