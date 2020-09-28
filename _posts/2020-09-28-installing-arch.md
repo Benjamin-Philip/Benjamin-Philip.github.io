@@ -20,7 +20,7 @@ extreme as [LFS](http://www.linuxfromscratch.org/lfs/), or
 [Gentoo](https://www.gentoo.org/) But it is not easy to maintain and
 use.It takes a lot effort not to foil up the setup and not have your
 computer break when you update.(Which is every week/day, because Arch is
-Rolling Release)
+Rolling Release.)
 
 ![An accurate description of Arch's behaviour](/assets/post-assets/2020-09-28-installing-arch/Fly-Bitch.jpg)
 
