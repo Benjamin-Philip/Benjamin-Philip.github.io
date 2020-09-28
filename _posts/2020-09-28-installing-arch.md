@@ -80,7 +80,7 @@ gpg --keyserver-options auto-key-retrieve --verify archlinux-year.month.date-x86
 
 Replace `year.month.date` with the actual file name.
 
-Now if you something like this: 
+Now if you get something like this: 
 
 ```bash
 gpg: assuming signed data in 'archlinux-2020.09.01-x86_64.iso'
