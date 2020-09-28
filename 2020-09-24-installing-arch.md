@@ -48,4 +48,23 @@ Few links before we start:
 
 # Downloading the ISO and verifying it
 
+So now we need to install the latest disk image. So go to the [Downloads
+Page](https://www.archlinux.org/download/) and click on the link for
+the mirror your country on the downloads page.
+
+## Download the ISO
+
+Now once you have accessed your mirror, download the `.iso` and `.sig`
+file.  The `.sig` file is to sign and verify the PGP signatures. Now,
+PGP (or GPG as its now called) is used by your Linux package manager to
+verify if it has downloaded correct software and not some malware. This
+required when we install arch into your disk when using `pacstrap`.
+This should take a while.
+
+While the iso is downloading, you will have to install `gpg` the verify 
+the iso. Otherwise there is a higher chance of the installation failing.
+If you use Linux, you will already have gpg installed, but if you use 
+Windows or macOS(if you haven't installed homebrew earlier) you will 
+have to [install](https://www.gnupg.org/download/) it.
+
 
