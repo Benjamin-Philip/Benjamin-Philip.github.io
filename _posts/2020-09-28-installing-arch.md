@@ -600,6 +600,7 @@ for somebody else to use.
 ```
 pacman -S sudo
 ```
+
 {: .box-warning}
 To configure sudo, we use visudo .Visudo is used to check 
 for syntax errors is your /etc/sudoers file.NEVER EVER 
