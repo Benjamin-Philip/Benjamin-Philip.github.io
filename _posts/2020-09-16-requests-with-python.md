@@ -27,7 +27,7 @@ is generally used for websites with HTML content (It is a HTML parser).
 
 {: .box-warning}
 **Warning:** This tutorial is meant for BeautifulSoup. If your website
-login page uses a lot of Javascript to substitute for HTML, You will need
+login page uses a lot of Javascript, You will need
 to use Selenium as BeautifulSoup can't parse Javascript, The process
 for Authenticating with Selenium may be completely different.(This is
 because Selenium may already have functions for authentication.)
