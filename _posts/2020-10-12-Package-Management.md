@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Package Management on Windows
+title: Package Management on Windows with Chocolately
 subtitle: A life saver for all the Windows users out there
 tags: [Windows Chocolately]
 ---
@@ -13,9 +13,9 @@ remove or, in short, manage packages in Windows?
 
 > Chocolately is software management automation for windows that wraps installers, executables, zips and scripts into compiled packages -- Chocolately Website
 
-For this cause, I found (chocolately)[https://chocolately.org]
+For this cause, I found [chocolately](https://chocolately.org)
 to be the best. Sure there is the new
-(winget)[https://docs.microsoft.com/en/windows/package-manager/winget]
+[winget](https://docs.microsoft.com/en/windows/package-manager/winget)
 , but it requires a windows 10 system and is still in
 Preview(beta). Chocolately in short words, is a community maintained
 project which hosts servers for windows packages. Much like [homebrew](https://brew.sh)
