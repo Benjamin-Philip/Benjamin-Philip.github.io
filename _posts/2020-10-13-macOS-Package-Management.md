@@ -24,13 +24,14 @@ may be different.
 # Login as an admin
 
 Now installing homebrew is very simple. But use root access.
-So if you are not not an admin, Login as an Admin in the terminal:
+When I was installing it on my Linux box, it asked for sudo permissions.
+So if you are not an admin, Login as an Admin in the terminal:
 
 ```
 su - <admin code name>
 ```
 
-And then type in the password
+Then type in the admin's password
 
 For eg:
 
@@ -128,11 +129,12 @@ build-error: 0 (30 days)
 
 ## Installing a package
 
-Now, this is a process where you ***must*** use root access (If you care about installing everything properly).
-So, Log into the admin, and do the following:
+Now unlike all your [apt](https://debian-handbook.info/browse/stable/sect.apt-get.html), [dnf](https://fedoraproject.org/wiki/DNF),
+[portage](https://wiki.gentoo.org/wiki/Portage), brew install to `/usr/local`. Since everyone has write permissions to `/usr/local`,
+You don't need root. So no `sudo`. For example to install `openjdk`:
 
 ```
-sudo brew install openjdk
+brew install openjdk
 ```
 
 Let the program run and that's it! You have installed your first package!
@@ -159,13 +161,21 @@ That's the way things are done in Unix! (and GNU systems) Please don't do it the
 If at all you need to uninstall a package, you use the following:
 
 ```
-sudo brew remove <package>
+brew remove <package>
 ```
 
 So, for openjdk it will be:
 
 ```
-sudo brew remove openjdk
+brew remove openjdk
+```
+
+# Uninstalling homebrew
+
+To uninstall homebrew, you will need to run its' uninstall script. That will be:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 ```
 
 # Conclusion
