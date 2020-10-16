@@ -9,7 +9,7 @@ author: Benjamin Philip
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  SICP: "https://benjamin-philip.github.io/"
+  SICP: "https://benjamin-philip.github.io/sicp/"
   About Me: "aboutme"
   Tags: "https://benjamin-philip.github.io/tags"
   Resources:
