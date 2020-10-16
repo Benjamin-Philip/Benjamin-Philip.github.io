@@ -9,6 +9,7 @@ author: Benjamin Philip
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  SICP: "https://benjamin-philip.github.io/sicp.html"
   About Me: "aboutme"
   Tags: "https://benjamin-philip.github.io/tags"
   Resources:
@@ -202,6 +203,15 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+
+# Collections
+collections:
+  sicp:
+    output: true
+    permalink: /:collection/:name
+
+# Collection directory
+collections_dir: collections
 
 # Exclude these files from production site
 exclude:
