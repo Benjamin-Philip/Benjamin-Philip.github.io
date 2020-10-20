@@ -193,7 +193,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "posts" or "sicp"
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
@@ -212,7 +212,7 @@ collections:
     permalink: /:collection/:name
   posts:
     output: true
-    assets_var: /collection-assets/:collection/:name
+ 
 
 # Collection directory
 collections_dir: collections
