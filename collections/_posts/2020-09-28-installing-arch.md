@@ -236,7 +236,7 @@ If you want to know about dual-booting, read the RHEL guide I attached above.You
 We now need to list out all the disks.We can use `lsblk` or `fdisk -l`
 for that.Usually a disk would be reffered to as sda1 or sda2.
 
-![List Disks picture]({{ page.assets-var | append: 'disks.png'}})
+![List Disks picture]({{ page.assets-var | append: '/disks.png'}})
 
 ## Partition disks
 
@@ -250,13 +250,13 @@ and the Linux partition in the second.But this is just a matter of personal pref
 You use `n` for creating a new partitions.The last bit where I specify `+1G` is actually
 specifies a partition of 1 GB.
 
-![Create partitions]({{ page.assets-var | append: 'Add-Partitions.gif'}})
+![Create partitions]({{ page.assets-var | append: '/Add-Partitions.gif'}})
 
 After you have created the partitions, you will have to specify type and write them.
 
 You can use `t` for this.You use `l` to list partition types.
 
-![Declare /dev/sda1 as swap]({{ page.assets-var | append: 'Specify-Swap.gif'}})
+![Declare /dev/sda1 as swap]({{ page.assets-var | append: '/Specify-Swap.gif'}})
 
 Once you have finished partitioning, you can use `w` to write to disks.
 
