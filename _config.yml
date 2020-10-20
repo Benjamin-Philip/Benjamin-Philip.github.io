@@ -86,7 +86,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "Vim,Linux,Tech,Ubuntu,Python,SICP"
+keywords: "Vim, Vi Improved, Emacs, Editor MACroS, GNU/Linux, Tech, Ubuntu, Python, Structure and Implementation of Computer Programs"
 
 # --- Colours / background image --- #
 
@@ -193,7 +193,16 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts" or "sicp"
+      type: "sicp"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+      assets_var: /collection-assets/:collection/:name
+  -
+    scope:
+      path: ""
+      type: "sicp"
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
