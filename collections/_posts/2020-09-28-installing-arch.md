@@ -3,6 +3,7 @@ layout: post
 title: Installing ArchLinux
 subtitle: The Initial Installation from a Live Arch Env
 tags: [Linux, ArchLinux]
+assets-var: /collection-assets/post/2020-09-28-installing-arch
 ---
 
 This is not a task for the light hearted.If you
@@ -22,7 +23,7 @@ use.It takes a lot effort not to foil up the setup and not have your
 computer break when you update.(Which is every week/day, because Arch is
 Rolling Release.)
 
-![An accurate description of Arch's behaviour](/assets/post-assets/2020-09-28-installing-arch/Fly-Bitch.jpg)
+![An accurate description of Arch's behaviour]({{ page.assets-var | append: '/Fly-Bitch.jpg' }})
 
 So here is tutorial (more accurate is my experience) for the folks
 out there who want to use arch but want a little help during the
@@ -175,7 +176,7 @@ You can verify your connection with `ping`:
 ping -c 5 archlinux.org
 ```
 
-![Archlinux ping](/assets/post-assets/2020-09-28-installing-arch/ping.png)
+![Archlinux ping]({{ page.assets-var | append: '/ping.png'}})
 
 # Update the system clock
 
@@ -207,7 +208,7 @@ Check the status :
 timedatectl status
 ```
 
-![timedatectl pic](/assets/post-assets/2020-09-28-installing-arch/timedatectl.png)
+![timedatectl pic]({{ page.assets-var | append: '/timedatectl.png'}})
 
 # Check for UEFI mode
 
@@ -235,7 +236,7 @@ If you want to know about dual-booting, read the RHEL guide I attached above.You
 We now need to list out all the disks.We can use `lsblk` or `fdisk -l`
 for that.Usually a disk would be reffered to as sda1 or sda2.
 
-![List Disks picture](/assets/post-assets/2020-09-28-installing-arch/disks.png)
+![List Disks picture]({{ page.assets-var | append: 'disks.png'}})
 
 ## Partition disks
 
@@ -249,13 +250,13 @@ and the Linux partition in the second.But this is just a matter of personal pref
 You use `n` for creating a new partitions.The last bit where I specify `+1G` is actually
 specifies a partition of 1 GB.
 
-![Create partitions](/assets/post-assets/2020-09-28-installing-arch/Add-Partitions.gif)
+![Create partitions]({{ page.assets-var | append: 'Add-Partitions.gif'}})
 
 After you have created the partitions, you will have to specify type and write them.
 
 You can use `t` for this.You use `l` to list partition types.
 
-![Declare /dev/sda1 as swap](/assets/post-assets/2020-09-28-installing-arch/Specify-Swap.gif)
+![Declare /dev/sda1 as swap]({{ page.assets-var | append: 'Specify-Swap.gif'}})
 
 Once you have finished partitioning, you can use `w` to write to disks.
 
@@ -303,7 +304,7 @@ mount /dev/vda2 /mnt
 swapon /dev/vda1
 ```
 
-![Format Disks](/assets/post-assets/2020-09-28-installing-arch/Format-Disks.gif)
+![Format Disks]({{ page.assets-var | append: 'Format-Disks.gif'}})
 
 ### UEFI
 
@@ -360,7 +361,7 @@ rm -r /var/lib/pacman/sync
 
 You then can try `pacstrap`
 
-![Pacstrap in action](/assets/post-assets/2020-09-28-installing-arch/pacstrap.gif)
+![Pacstrap in action]({{ page.assets-var | append: '/pacstrap.gif'}})
 
 Congratulations! You have installed Arch Linux!
 
@@ -622,7 +623,7 @@ Now add the following after "#User Alias		ADMINS="
 
 You can write and exit.
 
-![/etc/sudoers file](/assets/post-assets/2020-09-28-installing-arch/sudo.png)
+![/etc/sudoers file]({{ page.assets-var | append: '/sudo.png'}})
 
 # Install a Desktop Environment
 

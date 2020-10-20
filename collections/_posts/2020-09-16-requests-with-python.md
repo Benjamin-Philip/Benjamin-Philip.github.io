@@ -76,7 +76,7 @@ element` feature of your browser. This usually can be accessed with a
 right click. If you can't find it, you can always search how to inspect
 element on your browser.
 
-![Inspecting on Brave](\assets\post-assets\2020-09-16-requests-with-python\2020-09-15.png)
+![Inspecting on Brave]({{ page.assets-var | append: '2020-09-15.png'}})
 
 # Writing the script
 

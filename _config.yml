@@ -198,6 +198,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      assets_var: /collection-assets/:collection/:name
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
@@ -209,6 +210,9 @@ collections:
   sicp:
     output: true
     permalink: /:collection/:name
+  posts:
+    output: true
+    assets_var: /collection-assets/:collection/:name
 
 # Collection directory
 collections_dir: collections

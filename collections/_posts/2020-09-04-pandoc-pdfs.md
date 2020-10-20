@@ -2,7 +2,6 @@
 title: Pdfs with pandoc
 subtitle: An efficient replacement to Word
 tags: [Pandoc, LaTeX]
-comments: True
 ---
 
 With an increase of students and people using Word for school/college,
@@ -152,7 +151,7 @@ Now what we are essentially passing to pandoc is:
 
 This is how my test.pdf looks:
 
-[First Test.pdf](/assets/post-assets/pandoc-pdfs/test.pdf)
+[First Test.pdf]({{ page.assets-var | append: '/test.pdf'}})
 
 As you can see, markdown automatically numbers our numbered list and
 rectifies our mistakes.
@@ -167,7 +166,7 @@ Pandoc supports using YAML metadata in the beginning for passing parameters
 
 Let's beautify this a bit more:
 
-```kramdown
+```markdown
 ---
 title: A Random story in a Farm
 author: Benjamin Philip
@@ -178,7 +177,7 @@ Add this to the top of your document.
 
 This is how our new pdf looks:
 
-[New test.pdf](/assets/post-assets/pandoc-pdfs/new-test.pdf)
+[New test.pdf]({{ page.assets-var | append: '/new-test.pdf'}})
 
 # Specifying a different markdown variant
 
@@ -232,6 +231,21 @@ By using "^" for superscript and "~" for subscript.
 
 However knowing how to directly use LaTeX is handy as you can't write things like this in Markdown!
 
-$$\lim_{h \rightarrow 0 } \frac{f(x+h)-f(x)}{h}$$
+$$S (\omega)=\frac{\alpha g^2}{\omega^5} \,
+e ^{[-0.74{\{}{\frac{\omega U_\omega 19.5}{g}}{\}}^{-4}]}
+$$
+
+### Edit:
+
+You can write raw snippets of LaTeX or HTML in markdown with the use of the [raw_attribute extension](https://pandoc.org/MANUAL.html#extension-raw_attribute).
+Here is an example with LaTeX
+
+```{=LaTeX}
+This a \LaTeX code block
+And here is Display Math:
+
+$$S (\omega)=\frac{\alpha g^2}{\omega^5} \,
+e ^{[-0.74\scaleleftright[.7ex]{\{}{\frac{\omega U_\omega 19.5}{g}}{\}}^{-4}]}$$
+```
 
 What do you use to convert doc types? Tell us in the comments below !
