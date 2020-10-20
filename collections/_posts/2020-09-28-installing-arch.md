@@ -304,7 +304,7 @@ mount /dev/vda2 /mnt
 swapon /dev/vda1
 ```
 
-![Format Disks]({{ page.assets-var | append: 'Format-Disks.gif'}})
+![Format Disks]({{ page.assets-var | append: '/Format-Disks.gif'}})
 
 ### UEFI
 
