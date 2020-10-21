@@ -1,5 +1,5 @@
 ---
-title: Example: Square roots by Newton's Method
+title: "Example: Square roots by Newton's Method"
 date: 2020/10/20
 ---
 
