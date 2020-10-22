@@ -4,7 +4,8 @@ date: 2020/10/22
 ---
 
 In Ex 1.7, we redefine the `good-enough?` test from
-the [Newton's Square roots] example inorder to make
+the [Newton's Square roots] (https://benjamin-philip.github.io/sicp/example-newtons-square-root)
+example inorder to make
 it compatible will small numbers and very large numbers.
 
 # The Question
