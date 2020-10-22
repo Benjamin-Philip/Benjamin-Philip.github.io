@@ -206,4 +206,5 @@ Similarly for `1234567890987654321234567890`:
 ```
 
 Nothing. Which goes to say that our test is hopeless when computing small numbers
-and larger numbers. This issue will be taken care of in Ex 1.7. 
+and larger numbers. This issue will be taken care of in [Ex 1.7.](https://benjamin-philip.github.io/sicp/sicp-ex-1-7) 
+
