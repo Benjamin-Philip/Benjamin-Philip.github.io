@@ -84,7 +84,7 @@ program to a new file and re-write it with `new-if`:
 
 {: .note-box}
 **Note:** If you would like the copy the Original Code,
-you can obtain the snippet from my [Newton's Square roots post]({% link collections/_sicp/example-square-root-by-newtons-method %})
+you can obtain the snippet from my [Newton's Square roots post]({{site.baseurl}}{% link collections/_sicp/example-square-root-by-newtons-method %})
 
 Now that we have made the file, let's load the file (scheme --load path/to/file) and let's
 test it:
