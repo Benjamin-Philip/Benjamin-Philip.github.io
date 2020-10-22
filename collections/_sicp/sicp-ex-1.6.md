@@ -84,7 +84,7 @@ program to a new file and re-write it with `new-if`:
 
 {: .note-box}
 **Note:** If you would like the copy the Original Code,
-you can obtain the snippet from my [Newton's Square roots post]({{site.baseurl}}{% link collections/_sicp/example-square-root-by-newtons-method %})
+you can obtain the snippet from my [Newton's Square roots post](https://benjamin-philip.github.io/sicp/example-square-root-by-newtons-method)
 
 Now that we have made the file, let's load the file (scheme --load path/to/file) and let's
 test it:
@@ -108,7 +108,7 @@ sqrt-iter once again. Thus, we can say the special form
 
 ## What happens in new-if
 
-If you recollect from [Ex 1.5]({{ site.baseurl }}{% link collections/_sicp/sicp-ex-1.5 %}}),
+If you recollect from [Ex 1.5](https://benjamin-philip.github.io/sicp/sicp-ex-1-6),
 we had to compare the process involved in Ben's test when the interpreter use applicative order
 evaluation. And if you recollect, User defined functions are executed with Applicative order
 evaluation. The thing with applicative order evaluation is, **all** the expression in function
