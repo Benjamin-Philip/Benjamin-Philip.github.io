@@ -1,6 +1,6 @@
 ---
 title: Sicp Ex 1.10
-date: 2020/10/22
+date: 2020/10/23
 ---
 
 In the 10th exercise, we look at Ackerman's function
@@ -174,7 +174,11 @@ When we were computing `(A 2 4)` we saw that it became
 In this case, (A 1) is nested $ n -1 $ times, with two being
 returned to the innermost level. This leads to the exponent 
 being raised to the power of the exponent above it. 
-This is called [Tetration]. 
+This is called [Tetration](https://en.wikipedia.org/wiki/Tetration). 
+
+$ 2^{2^{2^{2}}} $
+
+The definition:
 
 $$ 2 \uparrow \uparrow n $$
 
