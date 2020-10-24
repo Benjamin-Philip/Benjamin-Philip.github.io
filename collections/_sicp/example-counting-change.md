@@ -116,4 +116,23 @@ We shall now define our recursive procedure:
 
 This entire script is:
 
+```scheme
+(define (count-change amount)
+  (cc 5 amount))
+
+(define (cc n-value amount)
+  (cond ((= amount 0 ) 1)
+	(( or (= n-value 0) (< amount n-value)) 0)
+	(else (+ (cc (- n-value 1 ) amount) 
+		 (cc n-value (- amount (first-denomination n-value)))))))
+
+(define (first-denomination n)
+  (cond ((= n 1) 1)
+  ((= n 2) 5)
+  ((= n 3) 10)
+  ((= n 4) 25)
+  ((= n 5) 50)))
 ```
+
+This when used with 1 dollar, will give 292.
+
