@@ -151,7 +151,7 @@ Now what we are essentially passing to pandoc is:
 
 This is how my test.pdf looks:
 
-[First Test.pdf]({{ page.assets-var | append: '/test.pdf'}})
+<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://benjamin-philip.github.io/collection-assets/post/2020-09-04-pandoc-pdfs/test.pdf" width="500" height="375">
 
 As you can see, markdown automatically numbers our numbered list and
 rectifies our mistakes.
@@ -177,7 +177,7 @@ Add this to the top of your document.
 
 This is how our new pdf looks:
 
-[New test.pdf]({{ page.assets-var | append: '/new-test.pdf'}})
+<embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://benjamin-philip.github.io/collection-assets/post/2020-09-04-pandoc-pdfs/new-test.pdf" width="500" height="375">
 
 # Specifying a different markdown variant
 
@@ -240,6 +240,7 @@ $$
 You can write raw snippets of LaTeX or HTML in markdown with the use of the [raw_attribute extension](https://pandoc.org/MANUAL.html#extension-raw_attribute).
 Here is an example with LaTeX
 
+````
 ```{=LaTeX}
 This a \LaTeX code block
 And here is Display Math:
@@ -247,5 +248,5 @@ And here is Display Math:
 $$S (\omega)=\frac{\alpha g^2}{\omega^5} \,
 e ^{[-0.74\scaleleftright[.7ex]{\{}{\frac{\omega U_\omega 19.5}{g}}{\}}^{-4}]}$$
 ```
-
+````
 What do you use to convert doc types? Tell us in the comments below !
