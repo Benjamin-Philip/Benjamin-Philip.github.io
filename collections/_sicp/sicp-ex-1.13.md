@@ -96,7 +96,7 @@ A quick evaluation of $\frac{\sqrt[]{5}}{2}$  on the calculator gives us
 $$ 1.1180339 ..$$
 
 We know that $\psi = -0.618304...$ and hence we can say
-$$ \psi^{n} \less 1 $$
+$$ \psi^{n} < 1 $$
 
 It soon becomes pretty obvious that
 $$ \psi^{n} \leq \frac{\sqrt[]{5}}{2} $$
