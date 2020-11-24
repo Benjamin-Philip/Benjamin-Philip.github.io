@@ -8,7 +8,7 @@ to the 16th question.
 
 # The Question
 
-**Exercise 1.18:** Using the results of [Exercise 1.16](https://benjamin-philip.github.io/sicp/sicp-ex-1-16) and [Exercise 1.17](https://benjamin-philip.github.io/sicp/sicp-ex-17),
+**Exercise 1.18:** Using the results of [Exercise 1.16](https://benjamin-philip.github.io/sicp/sicp-ex-1-16) and [Exercise 1.17](https://benjamin-philip.github.io/sicp/sicp-ex-1-17),
 devise a procedure that generates an iterative process for multiplying two intergers in the form
 of adding, doubling, halving, and uses a logarithmic number of steps.
 
@@ -33,8 +33,8 @@ Iterative logic:
 Procedure logic:
 
 - If `n` is 1, we return `(+ a b)`.
-- If `n` is odd, we add base to b and subtract 1 from `n`.
-- If `n` is even, we double b and halve `n`
+- If `n` is odd, we add base to `b` and subtract 1 from `n`.
+- If `n` is even, we double `a` and halve `n`
 
 # The Answer
 
@@ -57,6 +57,4 @@ This gives us the following procedure:
 (define (halve n)
   (/ n 2))
 ```
-
-
 And that was pretty easy...
