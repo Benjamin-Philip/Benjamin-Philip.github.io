@@ -14,7 +14,7 @@ state variables `a` and `b` in the `fib-iter` process of Section 1.2.2:
 $ a \leftarrow a + b $ and $ b \leftarrow a$.  Call this transformation
 $T$ , and observe that applying $T$ over and over again $n$ times,
 starting with 1 and 0, produces the pair Fib( n + 1) and Fib( n ). In
-other words, the Fibonacci numbers are produced by applying $T^{n} ,
+other words, the Fibonacci numbers are produced by applying $T^{n}$ ,
 the $n^{th}$ power of the transformation $T$ , starting with the pair
 (1, 0). Now consider $T$ to be the special case of $p = 0$ and $q = 1$
 in a family of transformations $T_{pq}$ , where $T_ {pq}$ transforms the
@@ -113,7 +113,7 @@ we can transform to transform `a` and `b`.
 
 # How on Earth do we transform `p` and `q` (the answer)
 
-Well, (that's (ben in french)[https://forum.wordreference.com/threads/bah-oui-ben-oui.196005/]), the answer lies with a common enemy - Algebra
+Well, (that's [ben in french](https://forum.wordreference.com/threads/bah-oui-ben-oui.196005/)), the answer lies with a common enemy - Algebra
 (Or google)
 
 One thing we can do is study how every iteration of the new algorithm changes.
@@ -162,8 +162,8 @@ Now to write the scheme
 	((even? count)
 	 (fib-iter a
 		   b
-		   〈 ?? 〉; compute p’
-		   〈 ?? 〉; compute q’
+		   (+ (* p p) (* q q))
+		   (+ (* 2 p q) (* q q))
 		   (/ count 2)))
 	(else (fib-iter (+ (* b q) (* a q) (* a p))
 			(+ (* b p) (* a q))
@@ -208,4 +208,4 @@ A quick check in a REPL gives us the right answers
 ;Value: 55
 ```
 
-That's it.
+That's it. Hope that helped
