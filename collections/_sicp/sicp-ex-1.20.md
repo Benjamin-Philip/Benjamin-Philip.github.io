@@ -1,6 +1,6 @@
 ---
 title: Sicp Ex 1.20
-date: 26/11/20
+date: 26/11/2020
 ---
 
 This is the $20^{th}$ question in Sicp. In general I feel that
@@ -126,4 +126,4 @@ The Applicative order is the following:
 ;Value: 2
 ```
 
-That's it. Hope it helps. 
+That's it. Hope it helps.
