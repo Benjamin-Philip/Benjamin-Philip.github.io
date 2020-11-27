@@ -1,5 +1,5 @@
 ---
-title: Example: Testing for Primality
+title: Example - Testing for Primality
 date: 27/11/2020
 ---
 
