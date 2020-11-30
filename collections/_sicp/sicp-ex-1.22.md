@@ -5,11 +5,11 @@ date: 27/11/2020
 
 This the 22nd quesion in Sicp. I feel that this question is much more
 interesting than lot of the others, because we finally get play with
-the `runtime` ! (I wonder how you interfer with memory managemnet.)
+the `runtime` ! (I wonder how you interfer with memory management.)
 
 # The Quesion
 
-**Exercise 1.22: ** Most Lisp implementations include a primitive
+**Exercise 1.22:**  Most Lisp implementations include a primitive
 called `runtime` that returns an integer that specifies the amount
 of time the system has been running (measured, for example,
 in microseconds). The following timed-prime-test procedure,
@@ -412,7 +412,7 @@ So the results:
 
 1,000,000:
 
-```
+```scheme
 (search-for-primes 1000000 3)
 
 1000003 *** 0.
@@ -485,10 +485,10 @@ Now, we have some information we can use.
 
 Judging from the values we got from 100,000,000,000 I say yes.
 
-$\sqrt[]{100000000003}$ is 316,227.7660215813. $\sqrt[]{100000000019}$
-is 316,227.7660468796. Their quotient is 1.
+$\sqrt[]{100000000003} =  316,227.7660215813$. $\sqrt[]{100000000019}
+= 316,227.7660468796$. Their quotient is 1.
 
-.25 / .2699999999999996 is ~0.92592592596021947874.
+0.25 / 0.2699999999999996 = ~0.92592592596021947874.
 
 So, our claim is true !! At least in my machine.
   
