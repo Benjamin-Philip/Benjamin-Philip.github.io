@@ -18,12 +18,12 @@ other words, the Fibonacci numbers are produced by applying $T^{n}$ ,
 the $n^{th}$ power of the transformation $T$ , starting with the pair
 (1, 0). Now consider $T$ to be the special case of $p = 0$ and $q = 1$
 in a family of transformations $T_{pq}$ , where $T_ {pq}$ transforms the
-pair $( a, b )$ according to $a \leftarrow bq + aq + ap and b \leftarrow
+pair $( a, b )$ according to $a \leftarrow bq + aq + ap$ and $b \leftarrow
 bp + aq$ . Show that if we apply such a transformation $T_{pq}$ twice,
 the effect is the same as using a single transformation $T_ {pq}$ of
 the same form, and compute $p'$ and $q'$ in terms of $p$ and $q$ .
 This gives us an explicit way to square these transformations, and
-thus we can compute T n using successive squaring, as in the fast-expt
+thus we can compute $T_{n}$ using successive squaring, as in the fast-expt
 procedure. Put this all together to complete the following procedure,
 which runs in a logarithmic number of steps:
 
@@ -143,8 +143,16 @@ $$
 Compare this with our algorithm :
 
 $$
-b \leftarrow bp + aq \\
-\text{and} b_{0}(pp + qq) + a_{0}(2pq + qq)
+b \leftarrow bp + aq
+$$
+
+and
+
+
+
+
+$$
+b_{0}(pp + qq) + a_{0}(2pq + qq)
 $$
 
 You begin to see the transformation. p is $p^{2} + q^{2}$ and q is $2pq + q^{2}$.
