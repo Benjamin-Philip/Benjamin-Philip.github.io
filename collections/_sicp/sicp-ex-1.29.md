@@ -31,8 +31,8 @@ calculus". Here is a quick refresher of terminology:
 
 - $a$ is starting point.
 - $b$ is ending point.
-- dx or delta x, is a really (infinitesimally) small change in x
-- f is "function of" and is a function in maths
+- $dx$ or delta x, is a really (infinitesimally) small change in x
+- $f$ is "function of" and is a function in maths
 
 $$\int_{a}^{b} f = \bigg[f\bigg(a + \frac{dx}{2}\bigg) + f\bigg( a + dx + \frac{dx}{2} + ... \bigg) \bigg]dx$$
 
@@ -54,9 +54,9 @@ So to conclude:
 1. $h = (b - a) \div n$
 2. $y = f(a + k \times h)$
 3. Each element is:
-   - y if k is 0 or equal to $n$
-   - 2y if even
-   - 4y if odd
+   - $y$ if k is 0 or equal to $n$
+   - $2y$ if even
+   - $4y$ if odd
 4. We multiply the sum of elements by $\frac{h}{3}$
 
 # Our Solution
@@ -83,7 +83,7 @@ We now need to find each element:
 
 ```scheme
 (define (find-element k)
-(define (find-y k) 
+(define (find-y) 
   (f (+ a (* k h))))
 (* (cond ((or (= k 0) (= k n)) 1)
 	 ((even? k) 2)
