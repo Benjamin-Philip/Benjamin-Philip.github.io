@@ -5,7 +5,7 @@ date: 20/1/21
 
 This is the $31^{th}$ Exercise from Sicp. Here, we define a procedure
 call `product` analogous to a `sum`. Using `product`, we define
-`factorial** and compute approximations of $\pi$
+`factorial` and compute approximations of $\pi$
 
 # The Question
 
@@ -124,8 +124,8 @@ We can rewrite it as this:
 
 $$
 \begin{align}
-  \frac{\pi}{4} = \frac{2 \cdot 4 \cdot 4 \cdot \cdot 6 \cdot 6 \cdot 8 ...}{3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 ...} \\
-  \pi = 4 \times \frac{2 \cdot 4 \cdot 4 \cdot \cdot 6 \cdot 6 \cdot 8 ...}{3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 ...} \\
+  \frac{\pi}{4} &= \frac{2 \cdot 4 \cdot 4 \cdot \cdot 6 \cdot 6 \cdot 8 ...}{3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 ...} \\
+  \pi &= 4 \times \frac{2 \cdot 4 \cdot 4 \cdot \cdot 6 \cdot 6 \cdot 8 ...}{3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 ...} \\
   &= 4 \times 2 \times \frac{(4 \cdot 6)^{2} \times 8}{(3 \cdot 5 \cdot 7)^{2}} \\
   &= 8 \times \frac{(4 \cdot 6)^{2} \times 8}{(3 \cdot 5 \cdot 7)^{2}} \\
 \end{align}
