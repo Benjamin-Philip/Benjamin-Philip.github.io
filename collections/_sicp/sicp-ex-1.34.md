@@ -48,5 +48,5 @@ pass the `f` as the parameter to itself:
 ```
 
 As you can see, we finally try to use the integer 2 as a
-function. This will cause an error. In MIT Scheme atleast, it returns
+function. This will cause an error. In MIT Scheme at least, it returns
 the error "The object 2 is not applicable".
