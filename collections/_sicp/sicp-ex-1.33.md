@@ -1,10 +1,10 @@
 ---
 title: Sicp Ex 1.33
-date: 1/22/21
+date: 21/1/22
 ---
 
 This is the $33^{rd}$ exercise from Sicp. Here, we write an even more
-general version of `accumulate**.
+general version of `accumulate`.
 
 # The Question
 
