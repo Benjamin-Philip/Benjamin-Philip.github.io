@@ -1,4 +1,4 @@
-4---
+---
 title: Sicp Exercise 1.36
 date: 2/2/2021
 ---
